@@ -10,7 +10,7 @@ function gotowork () {
 # Open/reopen memo
 function memo () {
   MEMO_EDITOR=cot
-  MEMO_BASEDIR=~/google_memo
+  MEMO_BASEDIR=~/google_drive/memo
   MEMO_DIR=$MEMO_BASEDIR/$(date +%Y/%m)
   MEMO_FILENAME=$MEMO_DIR/$(date +%d).md
   if [ ! -d $MEMO_DIR ]; then
